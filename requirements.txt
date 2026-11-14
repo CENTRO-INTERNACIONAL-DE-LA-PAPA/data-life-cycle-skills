@@ -1,0 +1,7 @@
+pandas>=2.2
+pointblank>=0.24
+openpyxl>=3.1
+pyyaml>=6.0
+pytest>=8.0
+# Optional, for `detect_pii.py --presidio`:
+# presidio-analyzer>=2.2
