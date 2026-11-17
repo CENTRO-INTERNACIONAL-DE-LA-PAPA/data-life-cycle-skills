@@ -32,6 +32,8 @@ Context Protocol (MCP):
 - AGROVOC: `https://agrovoc.fastmcp.app/mcp`
 
 They suggest the standard variable or concept for a name. A person should confirm each mapping.
+The source code of both servers is in [`mcp_servers/`](mcp_servers/README.md), with the steps
+to run them yourself.
 
 ### Anonymization
 
@@ -68,6 +70,9 @@ The format of `actions.json` is in the [anonymization skill](skills/anonymizatio
 ```bash
 pytest tests
 ```
+
+The test of the Crop Ontology server is skipped unless its requirements are installed
+(`pip install -r mcp_servers/requirements.txt`).
 
 ## What has and has not been tested
 
